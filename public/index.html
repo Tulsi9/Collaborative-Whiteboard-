@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Tiny-Teams Whiteboard</title>
+  <script src="https://kit.fontawesome.com/c939d0e917.js"></script>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="board">
+<h1 style="text-align: center;">Whiteboard</h1>
+<div class="text">
+    <h3 style="text-align: center;">Select your brush color here.Happy drawing!</h3>
+    
+</div>
+  <canvas class="whiteboard" ></canvas>
+
+  <div class="colors">
+    <div class="palette"><i class="fas fa-palette fa-2x"></i></div>
+    
+    <div class="color black"></div>
+    <div class="color red"></div>
+    <div class="color green"></div>
+    <div class="color blue"></div>
+    <div class="color yellow"></div>
+
+    <div class="palette"><i class="fas fa-paint-brush fa-2x text-primary"></i></div>
+  </div>
+</div>
+  <script src="/socket.io/socket.io.js"></script>
+  <script src="/main.js"></script>
+</body>
+</html>
